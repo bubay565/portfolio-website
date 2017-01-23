@@ -1,14 +1,14 @@
 .wrapper-bespoke {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/IMG_3701.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/IMG_3701.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 640px;
+    height: 640px;
 }
 
 .con-bespoke {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/in_touch.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/in_touch.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -18,7 +18,7 @@
 
 .buf {
     margin-top: 200px;
-    padding-left: 150px;
+    padding-left: 90px;
 }
 
 .fent {
@@ -90,4 +90,13 @@ p {
 
 .soc-wrapper {
     padding-top: 200px;
+}
+
+.main-nav li a {
+    color: red;
+    padding-right: 10px;
+}
+
+.main-nav li a:hover {
+    color: green;
 }
