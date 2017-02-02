@@ -4,7 +4,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .con-bespoke {
@@ -29,7 +29,7 @@
 
 .main-nav {
     list-style: none;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-top: 20px;
 }
 
@@ -52,10 +52,10 @@ a:active {
     min-height: 80vh;
 }
 
-.portfolio img {
-    width: 300px;
+/*.portfolio img {
+    min-width: 300px;
     min-height: 165px;
-}
+}*/
 
 .row-buffer {
     margin-top: 50px;
